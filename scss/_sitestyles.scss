@@ -1,12 +1,28 @@
+$color:(
+	font:white,
+);
 
 
 html, body{
-	background:black !important;
+	width:100%;
+	color: map-get($color, font);
+	background:#262622;
 }
 
 header{
-	li{
-		@include no-bullet;
-      	@include border-radius(5px);
+	@include grid-row();
+	.brp-logo{
+		@include grid-column(4,$center:true);
+		max-width:100%;
+	}
+	nav{
+		@include grid-column(8, $center:true);
+		ul{
+			@include inline-block-list(5px);
+			li{
+				@include no-bullet;
+		      	@include border-radius(5px);
+			}
+		}
 	}
 }
