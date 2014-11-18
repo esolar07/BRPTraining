@@ -9,20 +9,10 @@ html, body{
 	background:#262622;
 }
 
-header{
+img{
+	max-width:100%;
+}
+
+.contentbreakline{
 	@include grid-row();
-	.brp-logo{
-		@include grid-column(4,$center:true);
-		max-width:100%;
-	}
-	nav{
-		@include grid-column(8, $center:true);
-		ul{
-			@include inline-block-list(5px);
-			li{
-				@include no-bullet;
-		      	@include border-radius(5px);
-			}
-		}
-	}
 }

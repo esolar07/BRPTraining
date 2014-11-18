@@ -5,11 +5,13 @@
 @import "compass/css3";
 @import "compass/typography";
 
+@import "slick";
 
 
 @import "sitestyles";
-
-
+@import "headerstyles";
+@import "indexstyles";
+@import "footer";
 
 // Or selectively include components
 // @import

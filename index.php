@@ -1,180 +1,113 @@
 <?php $page = "Home"; ?>
 
 <!-- Includes Head -->
-<?php include_once "head.php"; ?>
+  <?php include_once "head.php"; ?>
 
   <body>
 
     <!-- slide begins-->
-    <div>
-      <div>
-        <div>
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
-        </div>
+    <div class="slider">
+      <div class="sliderimages one-time">
+        <img src="images/image1.jpeg" />
+      <!--
+        <img src="images/image3.jpg" />
+        <img src="images/image2.jpg" />
+        <img src="images/image4.jpg" />
+         -->
       </div>
     </div>
 
-    <div>
+    <div class="intro">
       <div>
         <h3>WELCOME TO BRP</h3>
-            <p>Welcome to BRPtraining. My name is Bryon Rizzi, founder and consultant. Fitness or "muscle movement" and Sports Specific coaching is a passion I have taken head on since I started this journey at the age of 13. Playing high school sports and being fortunate to earn a scholarship to the University of Findlay to play college football as well as study Strength and Conditioning is where the real world in fitness training and coaching started to become clear.<a href="contact.php"><b style="color:#FF0066;">  BELIEVE II ACHIEVE</b></a></p>
+        <p>Welcome to BRPtraining. My name is Bryon Rizzi, founder and consultant. Fitness or "muscle movement" and Sports Specific coaching is a passion I have taken head on since I started this journey at the age of 13. Playing high school sports and being fortunate to earn a scholarship to the University of Findlay to play college football as well as study Strength and Conditioning is where the real world in fitness training and coaching started to become clear.<a href="contact.php"><b style="color:#FF0066;">  BELIEVE II ACHIEVE</b></a></p>
         <p>Book you're first time session.</p>
+        <a href="#" class="introbutton">BOOK NOW</a><br>
       </div>
     </div>
 
-    <div>
+    <!-- line break -->
+    <div class="contentbreakline">
       <div>
         <hr>
       </div>
     </div>
+    <!-- line break ends-->
+
+    <div class="aboutsection">
+      <div class="about">
+        <h4 style="color:#FF0033">ABOUT BRP</h4>
+        <img src="images/image5.jpeg" height="350" width="350" />
+      </div>
+      <div class="aboutlist">
+        <p>&ndash; Nutritional Advice</p>
+        <p>&ndash; Muscle Toning</p>
+        <p>&ndash; Strength and Conditioning</p>
+        <p>&ndash; 1 on 1 Consulting</p>
+        <p>&ndash; Program Design</p>
+        <p>&ndash; Sports Specific Training</p>
+        <p>&ndash; NFL Combine Training</p>
+      </div>
+    </div>
+
+    <div class="aboutbrp">
+      <div class="abouttext">
+         <p>BRP training is a fitness and consulting company driven by results! Each client under our supervision will get state-­‐of-­‐the-­‐art professional training and consulting aimed to exceed achieving your fitness goals. Backed by science with injury preventative methods, we’re proven to take the body mentally and physically to the next level. For the last 6 plus years, BRP training has helped clients do everything including, losing weight, gaining muscle, increase speed, increase vertical jump, significantly increased strength gain, dropped body fat and assistance with individual lifestyle habits to instill a positive way of living and staying fit.  </p>
+      </div>
+    </div>
     
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
+    <!-- line break -->
+    <div class="contentbreakline">
+      <div>
+        <hr>
       </div>
     </div>
+    <!-- line break ends-->
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+    <div class="socialsection">
+      <div class="vidsection">
+        <h4>VIDEOS</h4>
+        <div class="workoutvid">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/G6-Mbr5W2aQ?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
+      <div class="socialcontact">
+        <h4>CONTACT BRP</h4>
+        <p style="margin-left: 0px;">Miami, FL 33132<br><a href="mailto:BRPtraining@yahoo.com" style="color:#FF0033;">BRPtraining@yahoo.com</a><br>Tel: 904-377-0918</p>
+        <a href="https://www.facebook.com/pages/BRPTraining/206960129493944?sk=info&ref=page_internal" ><img src="images/fb.png"></a>
+        <a href="https://twitter.com/B_rizzi21" ><img src="images/tw.png"></a>
+        <a href="http://instagram.com/b_rizzi" ><img src="images/ig.png"></a>
+      </div>        
     </div>
+    
+    <!-- line break -->
+    <div class="contentbreakline">
+      <div>
+        <hr>
+      </div>
+    </div>
+    <!-- line break ends-->
+  
+  <!-- Includes Foot -->
+  <?php include_once "footer.php"; ?>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/slick.js/slick/slick.js"></script>
     <script src="js/app.js"></script>
+
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+        // slick js plugin
+        $('.one-time').slick({
+          autoplay:true,
+          infinite: true,
+          speed: 500,
+          cssEase: 'linear'
+        });
+      });
+
+    </script>
   </body>
 </html>

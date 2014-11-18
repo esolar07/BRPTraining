@@ -1,0 +1,10 @@
+footer{
+	@include grid-row(12);
+	.footerlinks{
+		@include grid-column(11, $center:true);
+
+	}
+	.copywrite{
+		@include grid-row();
+	}
+}

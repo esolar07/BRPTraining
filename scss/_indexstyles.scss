@@ -1,0 +1,60 @@
+
+// using Slick slider 
+.slider{
+	@include grid-row();
+	margin-top: 3ems;
+	.sliderimages{
+		@include grid-column(8, $center:true);
+	}
+}
+
+// index body content
+.intro{
+	@inculde grid-row();
+	div{
+		@include grid-column(8, $center:true);
+		h3{
+			@include grid-column(4);
+		}
+		p{
+			@include grid-column(11, $offset:1);
+		}
+		.introbutton{
+			@include button($radius:10px);
+			@include grid-column(3, $offset:1);
+		}
+	}
+}
+
+//about section
+.aboutsection{
+	@include grid-row();
+	.about{
+		@include grid-column(6);
+	}
+	.aboutlist{
+		@innclude grid-column(6);
+	}
+}
+
+// about brp text
+.aboutbrp{
+	@include grid-row();
+	.abouttext{
+		@include grid-column(11);
+	}
+}
+
+//video and contact info
+.socialsection{
+	@include grid-row(12);
+	.vidsection{
+		@include grid-column(6);
+		.workoutvid{
+			@include flex-video-container();
+		}
+	}
+	.socialcontact{
+		@include grid-column(6, $push:2);
+	}
+}
