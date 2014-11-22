@@ -1,18 +1,44 @@
-$color:(
-	font:white,
-);
+
+// Custom Variables 
+
+$font:#FFF;
+$contback:#000;
+$back1:#181818;
+$back2:#262622;
+$headers:#FF0033;
 
 
 html, body{
 	width:100%;
-	color: map-get($color, font);
-	background:#262622;
+	color: $font;
+	background:$back1;
+	@include background-image(linear-gradient(90deg, $back1 0%, $back1 50%, $back2 50.01%, $back2 100%));
+	background-size: 25px 25px;
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	color:$font;
+	font-family: 'Roboto Condensed', sans-serif;
+	&:hover{
+		color:$headers;
+	}
 }
 
 img{
 	max-width:100%;
 }
 
+h1, h2, h3, h4, h5, h6{
+	color:$headers;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 .contentbreakline{
 	@include grid-row();
+}
+.container{
+	@include grid-row();
+	background: rgba($contback, .5);
+	padding:40px;
 }

@@ -12,7 +12,7 @@
 .intro{
 	@inculde grid-row();
 	div{
-		@include grid-column(8, $center:true);
+		@include grid-row();
 		h3{
 			@include grid-column(4);
 		}

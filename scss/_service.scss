@@ -1,0 +1,32 @@
+@mixin servdiv(){
+	@include grid-row();
+	padding: 50px 0px;
+	margin-top:15px;
+	margin-bottom:15px;
+	div:nth-child(1){
+		@include grid-column(4);
+	}
+	div:nth-child(2){
+		@include grid-column(8);
+	}
+}
+
+.serv1{
+	@include servdiv();
+}
+
+.serv2{
+	@include servdiv();
+}
+
+.serv3{
+	@include servdiv();
+}
+
+.serv4{
+	@include servdiv();
+}
+
+.serv5{
+	@include servdiv();
+}
