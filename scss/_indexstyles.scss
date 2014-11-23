@@ -3,6 +3,9 @@
 .slider{
 	@include grid-row();
 	margin-top: 3ems;
+	@media only screen and (max-width: 800px) {
+		display:none;
+	}		
 	.sliderimages{
 		@include grid-column(8, $center:true);
 	}
@@ -31,9 +34,20 @@
 	@include grid-row();
 	.about{
 		@include grid-column(6);
+		.aboutimg{
+			@include rotate(45deg);
+			img{
+				padding-bottom:2em; //32px	
+				padding-top:2em; //32px
+				@include rotate(-45deg);
+			}
+		}
 	}
 	.aboutlist{
 		@innclude grid-column(6);
+		@media only screen and (max-width: 800px) {
+		display:none;
+		}		
 	}
 }
 

@@ -93,6 +93,7 @@
   </div>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
     <script src="bower_components/slick.js/slick/slick.js"></script>
     <script src="js/app.js"></script>
 
@@ -107,6 +108,7 @@
           cssEase: 'linear',
           arrows:false
         });
+
       });
 
     </script>

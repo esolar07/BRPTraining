@@ -1,20 +1,31 @@
 header{
 	@include grid-row();
+	.largeHead{
+		nav{
+			@include grid-column(10, $center:true);
+			margin-top:15px;
+			margin-bottom:25px;
+			ul{
+				@include grid-column(12, $center:true);
+				@include inline-block-list(5px);
+				li{
+					@include no-bullet;
+					padding:20px;
+					font-size: 1.5em;
+				}
+			}
+		}
+		@media only screen and (max-width: 850px) { 
+			display:none;
+		}
+	}
+	.smallHead{
+		@media only screen and (min-width: 850px) { 
+			display:none;
+		}
+	}	
 	.brp-logo{
 		@include grid-column(8,$center:true);
 	}
-	nav{
-		@include grid-column(8, $center:true);
-		margin-top:15px;
-		margin-bottom:25px;
-		ul{
-			@include grid-column(12, $center:true);
-			@include inline-block-list(5px);
-			li{
-				@include no-bullet;
-				padding:20px;
-				font-size: 1.5em;
-			}
-		}
-	}
 }
+
