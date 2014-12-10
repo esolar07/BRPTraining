@@ -3,11 +3,12 @@ header{
 	.largeHead{
 		nav{
 			@include grid-column(10, $center:true);
-			margin-top:15px;
+			margin-top:10px;
 			margin-bottom:25px;
 			ul{
 				@include grid-column(12, $center:true);
-				@include inline-block-list(5px);
+				@include inline-block-list(10px);
+				text-align: center;
 				li{
 					@include no-bullet;
 					padding:20px;
@@ -26,6 +27,9 @@ header{
 	}	
 	.brp-logo{
 		@include grid-column(8,$center:true);
+		@media only screen and (max-width: 850px) { 
+			margin-top: 25px;
+		}
 	}
 }
 

@@ -21,7 +21,7 @@
 				<li><a href="about.php">VISION</a></li>
 				<li><a href="meet.php">MEET BRP</a></li>
 				<li><a href="service.php">SERVICES</a></li>
-				<li><a href="#">BOOK NOW</a></li>
+				<li><a href="book.php">BOOK NOW</a></li>
 			</ul>
 		</nav>
 		<!-- Large Nav Bar Ends -->
@@ -40,17 +40,17 @@
 				 
 				<section class="top-bar-section">
 					<ul class="right">
-						<li class="has-dropdown">
-							<a href="#">Menu</a>
-							<ul class="dropdown">
-								<li><a href="index.php">HOME</a></li>
-								<li><a href="about.php">VISION</a></li>
-								<li><a href="meet.php">MEET BRP</a></li>
-								<li><a href="service.php">SERVICES</a></li>
-								<li><a href="contact.php">BOOK NOW</a></li>
-							</ul>
-						</li>
-					</ul>
+				      <li class="has-dropdown">
+				        <a href="#">MENU</a>
+				        <ul class="dropdown">
+				          	<li><a href="index.php">HOME</a></li>
+							<li><a href="about.php">VISION</a></li>
+							<li><a href="meet.php">MEET BRP</a></li>
+							<li><a href="service.php">SERVICES</a></li>
+							<li><a href="book.php">BOOK NOW</a></li>
+				        </ul>
+				      </li>
+				    </ul>	
 				</section>
 			</nav>
 		</div>

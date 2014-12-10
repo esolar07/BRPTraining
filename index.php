@@ -3,7 +3,23 @@
 <!-- Includes Head -->
   <?php include_once "head.php"; ?>
 
-  <body>
+      <!-- Splash Page begins -->
+    <div class="splash">
+      <audio src="http://turbohackezin.free.fr/music/New/Kanye%20West%20-%20Graduation%20-%20Stronger.mp3" preload="auto" autoplay></audio>
+      <div class="imgRow ">
+        <div class="imgCol">
+          <img alt="logo" src="images/BRPlogo.png"/>
+        </div>
+      </div>
+      <div id ="sertop" class="butRow">
+        <div class="butCol">
+          <h1><a href="#">Start Believing</a></h1>
+        </div>
+      </div>
+    </div>
+    
+  <!-- Splash Page ends -->
+
     <div class="container">
       <!-- slide begins-->
       <div class="slider">
@@ -36,7 +52,7 @@
         <div class="about">
           <h4>ABOUT BRP</h4>
           <div class="aboutimg">
-            <img src="images/bryon.jpeg" height="300" width="300" />
+            <img src="images/bryon.jpeg"/>
           </div>
         </div>
         <div class="aboutlist">
@@ -87,30 +103,7 @@
         </div>
       </div>
       <!-- line break ends-->
-    
-    <!-- Includes Foot -->
-    <?php include_once "footer.php"; ?>
   </div>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
-    <script src="bower_components/slick.js/slick/slick.js"></script>
-    <script src="js/app.js"></script>
 
-    <script type="text/javascript">
-
-      $(document).ready(function(){
-        // slick js plugin
-        $('.one-time').slick({
-          autoplay:true,
-          infinite: true,
-          speed: 500,
-          cssEase: 'linear',
-          arrows:false
-        });
-
-      });
-
-    </script>
-  </body>
-</html>
+<!-- Includes Foot -->
+<?php include_once "footer.php"; ?>

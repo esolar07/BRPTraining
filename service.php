@@ -1,7 +1,7 @@
 <?php $page = "Services"; ?>
 
 <?php include_once "head.php"; ?>
-<body>
+
 	<div class="container">
 
 		<div class="serv1"> 
@@ -56,7 +56,14 @@
 			</div>
 		</div>
 
-		<?php include_once "footer.php"; ?>
+		<!-- line break -->
+		<div class="contentbreakline">
+			<div>
+			 	<hr>
+			</div>
+		</div>
+		<!-- line break ends-->
 
 	</div>
-</body>
+
+<?php include_once "footer.php"; ?>

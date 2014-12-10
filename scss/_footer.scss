@@ -1,8 +1,10 @@
 footer{
 	@include grid-row(12);
 	.footerlinks{
-		@include grid-column(11, $center:true);
-
+		@include grid-column(12, $center:true);
+		p{
+			font-size:15px;
+		}
 	}
 	.copywrite{
 		@include grid-row();
