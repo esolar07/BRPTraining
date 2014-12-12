@@ -20,7 +20,8 @@
 				<li><a href="index.php">HOME</a></li>
 				<li><a href="about.php">VISION</a></li>
 				<li><a href="meet.php">MEET BRP</a></li>
-				<li><a href="service.php">SERVICES</a></li>
+				<!-- removed for now -->
+				<!-- <li><a href="service.php">SERVICES</a></li> -->
 				<li><a href="book.php">BOOK NOW</a></li>
 			</ul>
 		</nav>
@@ -46,7 +47,8 @@
 				          	<li><a href="index.php">HOME</a></li>
 							<li><a href="about.php">VISION</a></li>
 							<li><a href="meet.php">MEET BRP</a></li>
-							<li><a href="service.php">SERVICES</a></li>
+							<!-- removed for now -->
+							<!-- <li><a href="service.php">SERVICES</a></li> -->
 							<li><a href="book.php">BOOK NOW</a></li>
 				        </ul>
 				      </li>

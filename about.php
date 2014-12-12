@@ -27,12 +27,4 @@
 	</div>
 </div>
 
-<!-- line break -->
-<div class="contentbreakline">
-	<div>
-	 	<hr>
-	</div>
-</div>
-<!-- line break ends-->
-
 <?php include_once "footer.php"; ?>

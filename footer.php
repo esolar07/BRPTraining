@@ -1,6 +1,14 @@
      <!-- Footer -->
     <footer>
 
+            <!-- line break -->
+      <div class="contentbreakline">
+        <div>
+          <hr>
+        </div>
+      </div>
+      <!-- line break ends-->
+
       <div class="footerlinks">
           <p>
           	<a href="#" style="color:#FFFFFF">PERSONAL CONSULTING &ndash; NUTRITIONAL ADVICE &ndash; WEIGHT LOSS &ndash; MUSCLE TONING &ndash; PROGRAM DESIGN &ndash; STRENGTH & CONDITIONING &ndash; SPORTS SPECIFIC</a>

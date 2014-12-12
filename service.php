@@ -56,14 +56,6 @@
 			</div>
 		</div>
 
-		<!-- line break -->
-		<div class="contentbreakline">
-			<div>
-			 	<hr>
-			</div>
-		</div>
-		<!-- line break ends-->
-
 	</div>
 
 <?php include_once "footer.php"; ?>

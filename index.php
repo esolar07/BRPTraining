@@ -95,14 +95,7 @@
           <a href="http://instagram.com/b_rizzi" ><img src="images/ig.png"></a>
         </div>        
       </div>
-      
-      <!-- line break -->
-      <div class="contentbreakline">
-        <div>
-          <hr>
-        </div>
-      </div>
-      <!-- line break ends-->
+  
   </div>
 
 <!-- Includes Foot -->
