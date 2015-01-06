@@ -4,22 +4,30 @@
 		@media only screen and (max-width: 850px) {
 			@include accordion-container;
 		}
-		div:nth-child(1){
-			@include accordion-navigation;
-			div{
-				@include accordion-content;
+		@media only screen and (max-width: 850px){
+			div:nth-child(1){
+				@include accordion-navigation;
+				div{
+					@include accordion-content;
+				}
 			}
 		}
-		div:nth-child(2){
-			@include accordion-navigation;
-			div{
-				@include accordion-content;
+
+		@media only screen and (max-width: 850px){
+			div:nth-child(2){
+				@include accordion-navigation;
+				div{
+					@include accordion-content;
+				}
 			}
 		}
-		div:nth-child(3){
-			@include accordion-navigation;
-			div{
-				@include accordion-content;
+
+		@media only screen and (max-width: 850px){
+			div:nth-child(3){
+				@include accordion-navigation;
+				div{
+					@include accordion-content;
+				}
 			}
 		}
 	}
