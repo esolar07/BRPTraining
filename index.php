@@ -1,18 +1,17 @@
+<?php
+  // displays spalsh page if cookie is not set
+  if (!isset($_COOKIE["visited"])){
+    include_once "splash.php";
+    // sets cookie and spalsh is no longer displayed
+    setcookie("visited", TRUE, time() + 84600);
+  }
+?>
+
 <?php $page = "Home"; ?>
 
 <!-- Includes Head -->
   <?php include_once "head.php"; ?>
 
-  <?php
-
-  // displays spalsh page if cookie is not set
-  if (!isset($_COOKIE["visited"])){
-    include_once "splash.php";
-    // sets cookie and spalsh is no longer displayed
-    setcookie("visited", TRUE, time() + 84600, "/");
-  }
-
-  ?>
 
     <div class="container">
       <!-- slide begins-->
@@ -35,7 +34,7 @@
       </div>
 
       <!-- line break -->
-      <div class="contentbreakline">
+      <div class="contentbreakline lineBreakBlk">
         <div>
           <hr>
         </div>
@@ -67,7 +66,7 @@
       </div>
       
       <!-- line break -->
-      <div class="contentbreakline">
+      <div class="contentbreakline lineBreakBlk">
         <div>
           <hr>
         </div>

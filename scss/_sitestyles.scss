@@ -1,11 +1,14 @@
 
 // Custom Variables 
 
-$font:#FFF;
+$font:#000;
+$font2:#FFF;
+$contBack: #D3D3D3;
 $contback:#000;
 $back1:#181818;
 $back2:#262622;
 $headers:#FF0033;
+$borderImg:#DC143C;
 $footer:#272721;
 
 html, body{
@@ -16,10 +19,15 @@ html, body{
 	background: url("http://www.stripemania.com/cache/25-25-45-1-181818-1-262622-DDEE1E-DDEE1E-DDEE1E-DDEE1E-262622-78D316-78D316-78D316-78D316-no-yes-yes-yes-yes-.png");
 	background-size: 25px 25px;
 	font-family: 'Lato', sans-serif;
+	 box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 a{
-	color:$font;
+	color:$font2;
 	font-family: 'Roboto Condensed', sans-serif;
 	&:hover{
 		color:$headers;
@@ -40,6 +48,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .container{
 	@include grid-row();
-	background: rgba($contback, .5);
+	background:$contBack;
 	padding:40px;
 }
