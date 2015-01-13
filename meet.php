@@ -3,9 +3,9 @@
 <?php include_once "head.php"; ?>
 <body>
 	<div class="container">
+		<h4>MEET BRP</h4>
 		<div class="meetimg">
-			<h4>MEET BRP</h4>
-			    <img src="images/image5.jpeg" height="350" width="350" />
+			<img src="images/image5.jpeg" height="350" width="350" />
 		</div>
 		<div class="meetpts">
 			<p>&ndash; Weight Loss</p>

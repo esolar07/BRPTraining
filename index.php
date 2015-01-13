@@ -29,7 +29,7 @@
           <h3>WELCOME TO BRP</h3>
           <p>Welcome to BRPtraining. My name is Bryon Rizzi, founder and consultant. Fitness or "muscle movement" and Sports Specific coaching is a passion I have taken head on since I started this journey at the age of 13. Playing high school sports and being fortunate to earn a scholarship to the University of Findlay to play college football as well as study Strength and Conditioning is where the real world in fitness training and coaching started to become clear.<a href="contact.php"><b style="color:#FF0066;">  BELIEVE II ACHIEVE</b></a></p>
           <p>Book you're first time session.</p>
-          <a href="#" class="introbutton">BOOK NOW</a><br>
+          <a href="book.php" class="introbutton">BOOK</a><br>
         </div>
       </div>
 

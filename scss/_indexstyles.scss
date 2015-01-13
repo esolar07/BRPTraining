@@ -55,7 +55,7 @@
 		}
 		.introbutton{
 			@include button($radius:10px);
-			@include grid-column(3, $offset:1);
+			@include grid-column(5, $offset:1);
 		}
 	}
 }
@@ -75,6 +75,10 @@
 			height:250px;
 			border: solid 3px $borderImg;
 			border-radius: 5px;
+			@media only screen and (max-width: 800px) {
+				width: 150px;
+				height: 150px;
+			}	
 			img{
 				max-width: 100%;
 			}
@@ -102,11 +106,20 @@
 	@include grid-row(12);
 	.vidsection{
 		@include grid-column(6);
+		@media only screen and (max-width: 850px) { 
+				@include grid-row(12);
+			}
 		.workoutvid{
 			@include flex-video-container();
+			@media only screen and (max-width: 850px) { 
+				@include grid-column(12);
+			}
 		}
 	}
 	.socialcontact{
 		@include grid-column(6, $push:2);
+		@media only screen and (max-width: 850px) { 
+			@include grid-column(12);
+		}
 	}
 }

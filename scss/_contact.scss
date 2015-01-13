@@ -1,0 +1,20 @@
+
+.contact-form{
+	@include grid-row(12);
+	div{
+		@include grid-row(9);
+		&label{
+			@include prefix-postfix-base();
+			@include grid-column(
+			    $columns:3,
+			    $float:left
+			);
+		}
+		input[type="text"] {
+		  @include grid-column($columns:9);
+		}
+	}
+	.submit{
+		@include button($radius:5px);
+	}
+}

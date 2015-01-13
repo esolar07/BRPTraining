@@ -24,6 +24,7 @@
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.accordion.js"></script>
     <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
     <script src="bower_components/slick.js/slick/slick.js"></script>
     <script src="js/app.js"></script>
@@ -42,28 +43,28 @@
         
         // fade in for about list items on index page
         $(".aboutlist p").hide(function(){
-          $(this).fadeIn("5000");
+          $(this).fadeIn("6000");
         });
-
         // fade in for meet pts on meet page
         $(".meetpts p").hide(function(){
-        	$(this).fadeIn("5000");
+        	$(this).fadeIn("6000");
         })
-
         //spash page
         if ($(".splash").is(":visible")){
           $(".container").css({"opacity":"0"});
         }
-
         $(".butRow").click(function(){
           $(".splash").slideUp("800", function(){
             $(".container").delay(100).animate({"opacity":"1.0"}, 800);
           });
           $("audio").remove();
         });
-
+        // temp accordion code
+        $("h4").on("click", function(){
+          $(this).siblings(".hiddenCont").slideToggle("slow");
+        })
       });
-
+      
     </script>
 
   </body>
