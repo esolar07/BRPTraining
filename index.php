@@ -1,11 +1,3 @@
-<?php
-  // displays spalsh page if cookie is not set
-  if (!isset($_COOKIE["visited"])){
-    include_once "splash.php";
-    // sets cookie and spalsh is no longer displayed
-    setcookie("visited", TRUE, time() + 84600);
-  }
-?>
 
 <?php $page = "Home"; ?>
 

@@ -5,7 +5,7 @@
 <div class="container">
 	<div class="contact-form">
 		<h3>CONTACT BRP TRAINING</h3>
-		<form ction="confirm.php" method="post">
+		<form action="confirm.php" method="post">
 			<div class="contact-form-name">
 				<label>First & Last Name:</label>
 				<input type="text" id="name" placeholder="Your Name" name="name" pattern="[a-zA-Z0-9]+" required>
