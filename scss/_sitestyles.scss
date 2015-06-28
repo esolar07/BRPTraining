@@ -14,8 +14,7 @@ $footer:#272721;
 html, body{
 	width:100%;
 	color: $font;
-	background: url("../images/bg.jpg");
-	background-size: 25px 25px;
+	background: linear-gradient(#111, transparent 100%) no-repeat, url("../images/background.jpg");
 	font-family: 'Lato', sans-serif;
 	box-sizing: border-box;
 }
